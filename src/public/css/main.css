@@ -1,0 +1,44 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: inherit, initial;
+        background: black;
+}
+
+header {
+    width: 100%;
+    height: 60px;
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.map-container {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.main-container{
+    width: 35%;
+    height: 100vh;
+
+    justify-content: center;
+    align-items: center;
+ 
+    background: rgb(216, 220, 255);
+}
+#map-template{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0px;
+    top: 0;
+    right: 0;
+}
+
